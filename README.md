@@ -2,7 +2,7 @@
 
 The limits of the paper, the numbers behind every one of its figures, and the code that draws them. By Dyer F. Cárdenas (Pontificia Universidad Católica del Perú) and Mauricio Bustamante (Niels Bohr Institute, University of Copenhagen). The paper's arXiv link will be added here.
 
-A new gauge boson $Z'$, very light, could mediate a force between neutrinos and the electrons and nucleons of ordinary matter. Atmospheric neutrinos that cross the Earth would then feel a potential, sourced by the Earth itself, that changes how they oscillate. The paper computes that potential at every point along the path of each neutrino, uses it to analyze 7.5 years of public IceCube DeepCore data, and sets upper limits on the coupling $g'$ of the $Z'$ for 14 flavor-dependent $U(1)'$ symmetries and mediator masses $m'$ from $10^{-15}$ to $10^{-9}$ eV (interaction ranges $1/m'$ from about $2 \times 10^5$ km down to 0.2 km).
+A new gauge boson $Z'$, very light, could mediate a force between neutrinos and the electrons and nucleons of ordinary matter. Atmospheric neutrinos that cross the Earth would then feel a potential, sourced by the Earth itself, that changes how they oscillate. The paper computes that potential at every point along the path of each neutrino, uses it to analyze 8 years of public IceCube DeepCore data, with a livetime of 2724 days (7.5 years), and sets upper limits on the coupling $g'$ of the $Z'$ for 14 flavor-dependent $U(1)'$ symmetries and mediator masses $m'$ from $10^{-15}$ to $10^{-9}$ eV (interaction ranges $1/m'$ from about $2 \times 10^5$ km down to 0.2 km).
 
 ## How to use it
 
