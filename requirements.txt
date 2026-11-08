@@ -1,0 +1,8 @@
+# Python packages for the notebook (the figures of this repository were drawn with Python 3.12,
+# numpy 2.5, scipy 1.18 and matplotlib 3.11.2)
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.10
+jupyter
+# The figures' text is typeset by LaTeX (Palatino, as in the paper): a LaTeX distribution with the
+# psnfss fonts (e.g. TeX Live) must be on the PATH.

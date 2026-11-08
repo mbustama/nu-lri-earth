@@ -1,0 +1,79 @@
+{
+  "content": "The nuisance parameters at our fit to the data without a long-range interaction ('ours') and at the DeepCore analysis ('deepcore', its Table IV) (Fig. D.1): 'pull', (value - nominal)/prior width, for those with a Gaussian prior; 'shift', value - nominal, for the others.",
+  "pull": {
+    "dom_eff": {
+      "ours": 0.483987,
+      "deepcore": 0.63
+    },
+    "delta_gamma": {
+      "ours": 0.355861,
+      "deepcore": 0.7
+    },
+    "barr_af_pi": {
+      "ours": 0.000548594,
+      "deepcore": 0.35
+    },
+    "barr_g_pi": {
+      "ours": -0.0524028,
+      "deepcore": -0.18
+    },
+    "barr_h_pi": {
+      "ours": 0.0461314,
+      "deepcore": -0.12
+    },
+    "barr_w_k": {
+      "ours": 0.0884788,
+      "deepcore": 0.21
+    },
+    "barr_w_antik": {
+      "ours": -0.067845,
+      "deepcore": -0.02
+    },
+    "barr_y_k": {
+      "ours": 0.126209,
+      "deepcore": 0.35
+    },
+    "ma_ccqe": {
+      "ours": -0.105364,
+      "deepcore": 0.03
+    },
+    "ma_ccres": {
+      "ours": 0.274599,
+      "deepcore": 0.57
+    },
+    "nc_norm": {
+      "ours": 0.532991,
+      "deepcore": 0.63
+    },
+    "dis_csms": {
+      "ours": 0.284883,
+      "deepcore": 0.04
+    }
+  },
+  "shift": {
+    "hole_ice_p0": {
+      "ours": -0.371777,
+      "deepcore": -0.37
+    },
+    "hole_ice_p1": {
+      "ours": 0.0111675,
+      "deepcore": 0.01
+    },
+    "bulk_ice_abs": {
+      "ours": -0.022429,
+      "deepcore": -0.03
+    },
+    "bulk_ice_scatter": {
+      "ours": -0.00671219,
+      "deepcore": -0.01
+    },
+    "atm_mu_scale": {
+      "ours": 0.633134,
+      "deepcore": 0.39
+    },
+    "aeff_scale": {
+      "ours": -0.0378809,
+      "deepcore": -0.18
+    }
+  }
+}
