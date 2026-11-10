@@ -2,7 +2,7 @@
 
 The limits of the paper, the numbers behind every one of its figures, and the code that draws them. By Dyer F. Cardenas (Pontificia Universidad Católica del Perú) and Mauricio Bustamante (Niels Bohr Institute, University of Copenhagen). The paper's arXiv link will be added here.
 
-A new gauge boson $Z'$, very light, could mediate a force between neutrinos and the electrons and nucleons of ordinary matter. Atmospheric neutrinos that cross the Earth would then feel a potential, sourced by the Earth itself, that changes how they oscillate. The paper computes that potential at every point along the path of each neutrino, uses it to analyze 8 years of public IceCube DeepCore data, with a livetime of 2724 days (7.5 years), and sets upper limits on the coupling $g'$ of the $Z'$ for 14 flavor-dependent $U(1)'$ symmetries and mediator masses $m'$ from $10^{-15}$ to $10^{-9}$ eV (interaction ranges $1/m'$ from about $2 \times 10^5$ km down to 0.2 km).
+A new gauge boson $Z'$, very light, could mediate a force between neutrinos and the electrons and nucleons of ordinary matter. Atmospheric neutrinos that cross the Earth would then feel a potential, sourced by the Earth itself, that changes how they oscillate. The paper computes that potential at every point along the path of each neutrino, uses it to analyze 8 years of public IceCube DeepCore data, with a livetime of 2724 days (7.5 years), for 14 flavor-dependent $U(1)'$ symmetries and mediator masses $m'$ from $10^{-15}$ to $10^{-9}$ eV (interaction ranges $1/m'$ from about $2 \times 10^5$ km down to 0.2 km). It sets upper limits on the coupling $g'$ of the $Z'$ for the eight symmetries whose potential differs between $\nu_\mu$ and $\nu_\tau$; the other six, whose potential acts on $\nu_e$ alone, have none.
 
 ## How to use it
 
@@ -14,6 +14,7 @@ A new gauge boson $Z'$, very light, could mediate a force between neutrinos and 
 
 ```
 README.md          this file
+LICENSE            MIT for the code, CC BY 4.0 for the data and the figures
 requirements.txt   the Python packages the notebook needs
 make_figures.py    runs the notebook, redrawing every figure
 notebooks/         figures.ipynb: every figure of the paper, each one explained
@@ -125,8 +126,12 @@ m_w, g_low, g_high = data.excluded_intervals('B_y + L_mu + L_tau', cl='90')  # e
 
 * The data: the public data release of the IceCube DeepCore oscillation analysis, [doi:10.7910/DVN/B4RITM](https://doi.org/10.7910/DVN/B4RITM); the analysis, IceCube Collaboration, Phys. Rev. D **108**, 012014 (2023), [arXiv:2304.12236](https://arxiv.org/abs/2304.12236).
 * The Earth model: the Preliminary Reference Earth Model in the 12 layers of constant density used by the DeepCore analysis.
-* The earlier limits: S. Garg et al., [arXiv:2601.01220](https://arxiv.org/abs/2601.01220) and [arXiv:2606.03443](https://arxiv.org/abs/2606.03443), digitized from their Fig. 1, so they are approximate.
+* The earlier limits: G. Garg et al., [arXiv:2601.01220](https://arxiv.org/abs/2601.01220) and [arXiv:2606.03443](https://arxiv.org/abs/2606.03443), digitized from their Fig. 1, so they are approximate.
 * The equivalence-principle bounds: Eöt-Wash, [arXiv:1207.2442](https://arxiv.org/abs/1207.2442), and MICROSCOPE, [arXiv:2209.15487](https://arxiv.org/abs/2209.15487), translated to each symmetry as in the paper's Sec. IV C.
 * The land outlines of Fig. 2: [Natural Earth](https://www.naturalearthdata.com/) (1:50m, public domain).
 
 If you use these limits or this code, please cite the paper (reference to be added here).
+
+## License
+
+The code is under the MIT License; the data and the figures are under CC BY 4.0. See [`LICENSE`](LICENSE).

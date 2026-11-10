@@ -8,7 +8,7 @@
     "arxiv": "to be added",
     "repository": "https://github.com/mbustama/nu-lri-earth"
   },
-  "content": "One-sided upper limits on the coupling of the Z' of 14 flavor-dependent U(1)' symmetries (15 entries: L_mu - L_tau for either sign of its charge factor), from 8 years of public IceCube DeepCore data, with a livetime of 2724 days (7.5 years) and with the potential of the Earth computed at every point along the path of each neutrino; and the bounded intervals of couplings excluded for the two symmetries whose potential acts on nu_e alone with k < 0.",
+  "content": "One-sided upper limits on the coupling of the Z' for 14 flavor-dependent U(1)' symmetries (15 entries: L_mu - L_tau for either sign of its charge factor; none for the six whose potential acts on nu_e alone), from 8 years of public IceCube DeepCore data, with a livetime of 2724 days (7.5 years) and with the potential of the Earth computed at every point along the path of each neutrino; and the bounded intervals of couplings excluded for the two symmetries whose potential acts on nu_e alone with k < 0.",
   "how_to_read": {
     "mediator_mass_eV": "The 25 mediator masses m' of the analysis, 1e-15 to 1e-9 eV, four per decade.",
     "interaction_range_km": "The interaction range 1/m' = (hbar c)/m' at each mass, with hbar c = 1.97327e-10 eV km.",
