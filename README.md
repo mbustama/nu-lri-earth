@@ -1,6 +1,6 @@
 # Earth-sized tests of long-range neutrino interactions
 
-The limits of the paper, the numbers behind every one of its figures, and the code that draws them. By Dyer F. Cardenas (Pontificia Universidad Católica del Perú) and Mauricio Bustamante (Niels Bohr Institute, University of Copenhagen). The paper's arXiv link will be added here.
+The limits of the paper, the numbers behind every one of its figures, and the code that draws them. By Dyer F. Cardenas (Pontificia Universidad Católica del Perú) and Mauricio Bustamante (Niels Bohr Institute, University of Copenhagen). The paper: [arXiv:2611.14642](https://arxiv.org/abs/2611.14642).
 
 A new gauge boson $Z'$, very light, could mediate a force between neutrinos and the electrons and nucleons of ordinary matter. Atmospheric neutrinos that cross the Earth would then feel a potential, sourced by the Earth itself, that changes how they oscillate. The paper computes that potential at every point along the path of each neutrino, uses it to analyze 8 years of public IceCube DeepCore data, with a livetime of 2724 days (7.5 years), for 14 flavor-dependent $U(1)'$ symmetries and mediator masses $m'$ from $10^{-15}$ to $10^{-9}$ eV (interaction ranges $1/m'$ from about $2 \times 10^5$ km down to 0.2 km). It sets upper limits on the coupling $g'$ of the $Z'$ for the eight symmetries whose potential differs between $\nu_\mu$ and $\nu_\tau$; the other six, whose potential acts on $\nu_e$ alone, have none.
 
@@ -130,7 +130,25 @@ m_w, g_low, g_high = data.excluded_intervals('B_y + L_mu + L_tau', cl='90')  # e
 * The equivalence-principle bounds: Eöt-Wash, [arXiv:1207.2442](https://arxiv.org/abs/1207.2442), and MICROSCOPE, [arXiv:2209.15487](https://arxiv.org/abs/2209.15487), translated to each symmetry as in the paper's Sec. IV C.
 * The land outlines of Fig. 2: [Natural Earth](https://www.naturalearthdata.com/) (1:50m, public domain).
 
-If you use these limits or this code, please cite the paper (reference to be added here).
+## How to cite
+
+If you use these limits or this code, please cite the paper:
+
+D. F. Cardenas and M. Bustamante, *Earth-sized tests of long-range neutrino interactions*, [arXiv:2611.14642](https://arxiv.org/abs/2611.14642) [hep-ph].
+
+Its BibTeX entry, from [INSPIRE](https://inspirehep.net/literature?q=arxiv:2611.14642):
+
+```bibtex
+@article{Cardenas:2026vop,
+    author = "Cardenas, Dyer F. and Bustamante, Mauricio",
+    title = "{Earth-sized tests of long-range neutrino interactions}",
+    eprint = "2611.14642",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ph",
+    month = "11",
+    year = "2026"
+}
+```
 
 ## License
 
