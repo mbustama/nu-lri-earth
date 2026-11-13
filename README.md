@@ -4,6 +4,14 @@ The limits of the paper, the numbers behind every one of its figures, and the co
 
 A new gauge boson $Z'$, very light, could mediate a force between neutrinos and the electrons and nucleons of ordinary matter. Atmospheric neutrinos that cross the Earth would then feel a potential, sourced by the Earth itself, that changes how they oscillate. The paper computes that potential at every point along the path of each neutrino, uses it to analyze 8 years of public IceCube DeepCore data, with a livetime of 2724 days (7.5 years), for 14 flavor-dependent $U(1)'$ symmetries and mediator masses $m'$ from $10^{-15}$ to $10^{-9}$ eV (interaction ranges $1/m'$ from about $2 \times 10^5$ km down to 0.2 km). It sets upper limits on the coupling $g'$ of the $Z'$ for the eight symmetries whose potential differs between $\nu_\mu$ and $\nu_\tau$; the other six, whose potential acts on $\nu_e$ alone, have none.
 
+![An atmospheric neutrino crossing the Earth to IceCube DeepCore, with the regions of the Earth that source its potential](figures/fig02_setup.png)
+
+*Fig. 2 of the paper: an atmospheric neutrino crossing the Earth. The potential at each point of its path comes mostly from the matter within a few interaction ranges, 1/m′, of that point. As the neutrino moves, so does the matter that creates its potential.*
+
+<a href="https://youtu.be/G7DGSbry81w"><img src="https://i.ytimg.com/vi/G7DGSbry81w/maxresdefault.jpg" width="640" alt="The animation of the paper, on YouTube"></a>
+
+*A 70-s animation of the paper ([watch it on YouTube](https://youtu.be/G7DGSbry81w)): an atmospheric neutrino crosses the Earth to IceCube DeepCore, with the map of where its potential comes from, then the event, the data and the limit.*
+
 ## How to use it
 
 * **To use the limits**: they are all in one file, [`data/limits.json`](data/limits.json): the upper limits on the coupling at 90% and 95% C.L., for every symmetry, on the data and expected, at 25 mediator masses. See [The limits](#the-limits) below.
@@ -19,7 +27,7 @@ requirements.txt   the Python packages the notebook needs
 make_figures.py    runs the notebook, redrawing every figure
 notebooks/         figures.ipynb: every figure of the paper, each one explained
 plotting/          data.py, which reads the data files; style.py and matplotlibrc, the figures' style
-figures/           the figures of the paper (PDF)
+figures/           the figures of the paper (PDF), and Fig. 2 as PNG for this README
 data/              the limits, and the numbers behind every figure (JSON)
 ```
 
